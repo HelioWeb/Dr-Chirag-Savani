@@ -4809,8 +4809,15 @@ div[data-target] > div {
 .logo{
 	left: -40px;
 }
+
+.hlt_blddnt_clr{
+	width: 107vw;
+    height: 100vh;
 }
 
+.hlt_vdobnr{
+	margin-top: 100vh;
+}
 .logo{
 	bottom: 5vh;
 }
