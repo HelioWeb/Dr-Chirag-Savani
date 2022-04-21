@@ -4795,6 +4795,16 @@ div[data-target] > div {
 	display: block;
 }
 }
+
+@media (max-width: 900px) {
+	.hlt_blddnt_clr{
+		width: 107vw;
+		height: 100vh;
+	}
+	.hlt_vdobnr{
+		margin-top: 100vh;
+	}
+}
 @media (max-width: 479px) {
 .hlt_bnr_text .htl_bnr_sbheading {
     font-size: 24px;
@@ -4821,4 +4831,6 @@ div[data-target] > div {
 .logo{
 	bottom: 5vh;
 }
+
+
 
