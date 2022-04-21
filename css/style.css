@@ -4133,8 +4133,8 @@ div[data-target] > div {
 }
 #hs_header.hlt_manu {
     float: right;
-    width: 100%;
-    text-align: center;
+    /* width: 100%; */
+    /* text-align: center; */
 }
 #hs_header.hlt_manu nav {
     float: none;
@@ -4172,7 +4172,7 @@ div[data-target] > div {
 }
 .hlt_lwrheader .hlt_uprleft {
     width: 100%;
-    text-align: center;
+    /* text-align: center; */
 }
 .hlt_lwrheader .hlt_uprleft ul{
     float: none;
@@ -4367,7 +4367,7 @@ div[data-target] > div {
 }
 .hlt_lwrheader .hlt_uprleft {
     width: 100%;
-    text-align: center;
+    /* text-align: center; */
 }
 .hlt_lwrheader .hlt_uprleft ul{
     float: none;
@@ -4851,4 +4851,8 @@ div[data-target] > div {
 	.hlt_openclick{
 		display: none;
 	}
+}
+
+#hlt_urleft{
+	float: left;
 }
