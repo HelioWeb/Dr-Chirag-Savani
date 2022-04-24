@@ -1,45 +1,4 @@
-/*
-Copyright (c) 2018 Himanshu Softtech.
-------------------------------------------------------------------
-[Master Stylesheet]
 
-Project:	Health Care
-Version:	1.0.0
-Assigned to:	Themeforest
--------------------------------------------------------------------
-[Table of contents]
-
-1. Body
-2. Pre loader / #preloader 
-3. Color picker / #style-switcher
-4. Header / #hs_header
-5. Logo / #hs_logo
-6. Navigation / #hs_header .hs_menu
-7. Responsive navigation / .hs_nav_toggle
-8. Social icon / .hs_social
-9. Slider / .hs_slider_controler
-10. Pager / .hs_pager ul 
-11. Page title / .hs_page_title
-12. Service / .hs_service
-13. Appointment / .hs_appointment_form_div
-14. Up coming events / .up_coming_events
-15. Our doctor team slider / #our_doctor_team_slider
-16. Happy patients / .happy_patients
-17. Our partners / .our_partners 
-18. How we are / .hs_how_we_are img 
-19. Health care team / #health_care_team_slider 
-20. Testimonial / .testimonial , #patients_testimonials_slider
-21. Related post / .releted_post
-22. Portfolio / .hs_portfolio
-23. Single profile / .hs_single_profile
-24. Post / .post_by 
-25. Blog categorie / .hs_blog_categorie_pager
-26. Sidebar / .hs_sidebar
-27. Comment form / .hs_comment_form
-28. Content / .hs_contact_head_text 
-29. Footer / #hs_footer
-30. @media css
--------------------------------------------------------------------*/
 /*--------- Body Strat -------*/
 body {
 	font-family: 'Open Sans', sans-serif;
@@ -813,7 +772,7 @@ ul.pattern li #style {
 	margin-bottom: 80px;
 }
 .hs_heading {
-	color: #00ac7a;
+	color: #0274fa;
 	margin: 30px auto;
 	padding-bottom: 15px;
 	position: relative;
@@ -829,7 +788,7 @@ ul.pattern li #style {
 	border-bottom: 2px solid #7f9aa0;
 }
 .hs_contact_heading {
-	color: #00ac7a;
+	color: #0274fa;
 	margin: 30px auto;
 	padding-bottom: 15px;
 	display: inline-block;
@@ -848,7 +807,7 @@ ul.pattern li #style {
 	border-bottom: 2px solid #7f9aa0;
 }
 .hs_theme_color {
-	color: #00ac7a;
+	color: #0274fa;
 }
 .btn_prev {
 	padding: 5px 10px 5px 10px;
@@ -902,7 +861,7 @@ ul.pattern li #style {
 	color: #fff;
 	margin-top:0px;
     margin-bottom: 40px;
-	background-image: url(http://placehold.it/1920X1080);
+	background-image: url("/images/bg/hospital_bg.webp");
 	background-repeat:no-repeat;
 	background-size:cover;
 	background-position:center center;
@@ -1778,8 +1737,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5f5f5', end
 	min-width: 15px;
 }
 .hs_profile_social ul li:hover a {
-	border-color: #00ac7a;
-	background: #00ac7a;
+	border-color: #0274fa;
+	background: #0274fa;
 }
 .hs_profile_social ul li:hover a i{
 	color: #fff;
@@ -2252,7 +2211,7 @@ display: inline-block;
 	width: 100%;
 	float: left;
 	background: #f5f5f5;
-	border-bottom: 2px solid #00ac7a;
+	border-bottom: 2px solid #0274fa;
 	padding: 20px;
 	margin-bottom: 40px;
 }
@@ -2314,8 +2273,8 @@ input[type=checkbox].css-checkbox.lrg:checked + label.css-label.lrg {
 	resize: none;
 }
 .btn-success{
-background-color: #00ac7a;
-border-color: #00ac7a;
+background-color: #0274fa;
+border-color: #0274fa;
 }
 .btn-success.active, .btn-success:active, .btn-success:focus, .btn-success:hover, .open .dropdown-toggle.btn-success{
 background: rgba(0, 172, 122, 0.8);
@@ -2414,8 +2373,8 @@ border-color: rgba(0, 172, 122, 0.8);
 }
 .hs_contact ul li i {
 	float: left;
-	border: 1px solid #00996d;
-	background: #00ac7a;
+	border: 1px solid #0274fa;
+	background: #0274fa;
 	padding: 8px 10px;
 	width: 50px;
 	text-align: center;
@@ -2429,7 +2388,7 @@ border-color: rgba(0, 172, 122, 0.8);
 }
 .hs_contact_social {
 	background: #f5f5f5;
-	border-bottom: 2px solid #00ac7a;
+	border-bottom: 2px solid #0274fa;
 	width: 100%;
 	float: left;
 	padding: 25px 20px 20px 20px;
@@ -2948,7 +2907,7 @@ div[data-target] > div {
 	background-color:#f5f5f5;
 	padding:260px 0px;
 	position:relative;
-	background-image:url(http://placehold.it/1920X1080);
+	background-image:url(/images/bg/bg2.jpg);
 	background-attachment:fixed;
 	background-position:100% 50%;
 	background-repeat:no-repeat;
@@ -3260,6 +3219,9 @@ div[data-target] > div {
     top: -45px;
     line-height: 90px;
     padding-top: 11px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 .hlt_wedobox .hlt_hexa:before {
 	content: "";
@@ -3762,7 +3724,7 @@ div[data-target] > div {
 .hlt_vdobnr{
 	float:left;
 	width:100%;
-	background-image:url(http://placehold.it/1920X1080);
+	background-image:url(../images/bg/bg2.jpg);
 	background-attachment:fixed;
 	background-repeat:no-repeat;
 	background-size:cover;
